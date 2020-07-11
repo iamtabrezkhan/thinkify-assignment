@@ -48,10 +48,8 @@ const formatTime = (time) => {
 function Stopwatch() {
   const clock = useRef(0);
   const offset = useRef(0);
-  const interval = useRef();
   const [time, setTime] = useState(formatTime(0));
   const [status, setStatus] = useState("stopped");
-  const del = useRef(0);
 
   useEffect(() => {
     let interval = null;
