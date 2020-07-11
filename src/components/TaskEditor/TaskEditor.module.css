@@ -1,0 +1,21 @@
+.main {
+  width: calc(100% - 22px);
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  width: calc(100% - 10px);
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 5px 8px;
+  background: green;
+  color: white;
+}
+
+.cancelBtn {
+  background: #dddddd;
+  color: black;
+}

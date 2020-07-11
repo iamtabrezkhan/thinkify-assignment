@@ -1,0 +1,9 @@
+.main {
+  width: 100%;
+}
+
+.main > .noTasks {
+  text-align: center;
+  color: #646464;
+  font-size: 0.9rem;
+}

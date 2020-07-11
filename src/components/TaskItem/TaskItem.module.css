@@ -1,0 +1,53 @@
+.main {
+  width: calc(100% - 22px);
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.main .tags {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
+
+.main .tags .tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 6px;
+  border-radius: 15px;
+  background: #dddddd;
+  margin-right: 10px;
+}
+
+.main .tags .cross {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.main .tags .cross:hover {
+  background: #c3c3c3;
+}
+
+button {
+  padding: 5px 8px;
+  background: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  background: red;
+}
+
+.stopwatch {
+  padding: 10px 0;
+}
